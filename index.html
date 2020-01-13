@@ -9,7 +9,6 @@
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
 
-
     <style>
         * {
             box-sizing: border-box;
@@ -28,69 +27,15 @@
             color: #000;
             margin: 0;
             padding: 0;
+            background-image: url("../03-背景圖/烏龜海星-01.png");
+            min-width: 1140px;
         }
-
-        .container {
-            width: 100%;
-            height: 100px;
-
-        }
-
-        .navbar {
-            width: 100%;
-            height: 100px;
-            background-image: url("/03-背景圖/烏龜海星.jpg");
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-
-            position: -webkit-sticky;
-            position: sticky;
-            top: 0;
-            /* position: fixed; */
-            /* z-index: 999; */
-        }
-
-        .logo {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            background-color: brown;
-
-        }
-
 
         a {
             text-decoration: none;
         }
 
-        .navbar_button_group ul {
-            width: 100%;
-            margin: 0;
-            display: flex;
-            justify-content: flex-end;
-            font-family: 標楷體;
-        }
-
-        .navbar_button_group ul li {
-            width: 50%;
-            display: inline-block;
-            text-align: center;
-            font-size: 28px;
-            color: black;
-        }
-
-        .navbar_button_group {
-            display: flex;
-
-        }
-
-        #banner {
-            width: 100%;
-            height: 100%;
-        }
-
-
+        /* 輪播_1  */
         /* banner */
         .swiper-container {
             width: 100%;
@@ -118,32 +63,85 @@
 
         /* banner */
 
-        /* content_A */
-
-        .content_A {
+        .content_0 {
             width: 100%;
             height: 100%;
-            padding: 100px 0;
+            margin: auto;
         }
 
-        /* .space{
+        .container {
+            width: 100%;
+            height: 100%;
+            max-width: 1920px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url("/03-背景圖/海龜海星-01.png");
+        }
+
+        .navbar {
             width: 100%;
             height: 100px;
-        } */
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: -webkit-sticky;
+            /* position: sticky; */
+            /* top: 0; */
+            /* position: fixed; */
+            /* z-index: 999; */
+            background-color: rgb(212, 238, 248);
+        }
 
-        .content_A .tital h1 {
+        .logo {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            /* background-color: brown; */
+            background-image: url("../01-LOGO/logo-01.png");
+            background-size: cover;
+        }
+
+        .navbar_button_group ul {
+            width: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: flex-end;
+            font-family: 標楷體;
+        }
+
+        .navbar_button_group ul li {
+            width: 50%;
+            display: inline-block;
+            text-align: center;
+            font-size: 28px;
+            color: black;
+        }
+
+        .navbar_button_group {
+            display: flex;
+        }
+
+        /* contentA */
+
+        .content_A_tital h1 {
             font-size: 50px;
             text-align: center;
-            margin: 25px 0;
             font-family: 標楷體;
             letter-spacing: 2px;
+            margin: 20px 0 0 0;
+        }
+
+        .content_A {
+            width: 59.375%;
+            margin: auto;
+            background-color: rgb(212, 238, 248);
         }
 
         .content_A_top {
-            width: 59%;
+            width: 100%;
             display: flex;
-            margin: auto;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
 
         .content_A_top_right ul {
@@ -153,33 +151,32 @@
 
         .content_A_top_right li {
             font-size: 16pt;
-            margin: 5px 0 15px 20px;
+            margin: 10px 0 15px 20px;
             font-family: 標楷體;
-            letter-spacing: 2px;
-            line-height: 21px;
+            /* letter-spacing: 2px; */
+            line-height: 25px;
         }
 
         .content_A_bot {
-            width: 59%;
+            width: 59.375%;
             display: flex;
-            margin: auto
         }
 
         .content_A_bot_left {
-            width: 60%
+            width: 100%
         }
 
         .content_A_bot_left ul {
             margin: 0;
-            padding: 0 0 0 25px;
+            padding: 0 0 0 20px;
         }
 
         .content_A_bot_left li {
             font-size: 16pt;
-            margin: 5px 15px 15px 0px;
+            margin: 4px 0 15px 0px;
             font-family: 標楷體;
-            letter-spacing: 1px;
-            line-height: 27px;
+            /* letter-spacing: 1px; */
+            line-height: 30px;
         }
 
         .content_A_bot_left h3 {
@@ -189,13 +186,17 @@
         }
 
         .content_A_bot_right {
-            width: 40%;
-
+            width: 5%;
         }
 
         .map {
-            /* margin-bottom: 20px; */
+            margin-bottom: 15px;
             margin-right: 0;
+        }
+
+        .content_A_bot_right_bot {
+            width: 500px;
+            height: 135px;
         }
 
         .flag_1 {
@@ -210,251 +211,989 @@
             height: 135px;
             background-image: url("/04-地圖、國旗、國徽/國徽.jpg");
             float: right;
+            margin-right: 8px;
         }
 
 
         /* content_B */
 
         .content_B {
-            width: 100%;
-            height: 100%;
-            padding: 100px 0;
+            width: 59.375%;
+            /* height: 100%; */
+            margin: auto;
+            background-color: rgb(212, 238, 248);
         }
 
         .content_B .tital h2 {
             font-size: 35px;
             text-align: center;
-            margin: 25px 0;
+            margin: 0 0 65px 0;
             font-family: 標楷體;
             letter-spacing: 2px;
-            
         }
 
-        .content_B_left{
-            width: 
-            height: 81%;
-            dia
+        .content_B_left {
+            float: left;
+            position: relative;
         }
 
-        .content_B_photo-1{
-            width: 460px;
-            height: 460px;
+        .content_B_photo_1 {
             border-radius: 50%;
-            background-image: url("/05-人文風俗/斐濟人-2.jpg");
+            width: 400px;
+            height: 400px;
+            background-image: url("../05-人文風俗/戴花.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+
         }
 
-        .content_B_photo-2{
-            w
+        .content_B_photo_2 {
+            border-radius: 50%;
+            width: 360px;
+            height: 360px;
+            background-image: url("../05-人文風俗/穿耳洞.jpg");
+            background-size: cover;
+            position: absolute;
+            left: -100px;
+            top: 300px;
+
         }
 
-        .content_B_right{
+        .content_B_photo_3 {
+            border-radius: 50%;
+            width: 320px;
+            height: 320px;
+            background-image: url("../05-人文風俗/螞蟻咬.jpg");
+            background-size: cover;
+            position: absolute;
+            left: 200px;
+            top: 280px;
+        }
+
+        .content_B_right {
+            width: 55%;
+            float: right;
+        }
+
+        .content_B_right ul {
+            line-height: 30px;
+        }
+
+        .content_B_right li {
+            font-size: 24px;
+            letter-spacing: 10px;
+            line-height: 30px;
+            font-family: 標楷體;
+        }
+
+        .content_B_right span {
+            font-size: 24px;
+            line-height: 50px;
+            letter-spacing: 5px;
+            font-family: 標楷體;
+        }
+
+        /* content_C */
+        .content_C {
+            width: 59.375%;
+            height: 79%;
+            /* padding: 100px 0; */
+            margin: auto;
+            background-color: rgb(212, 238, 248);
+        }
+
+        .content_C .tital h2 {
+            font-size: 35px;
+            text-align: center;
+            margin: 0 0 65px 0;
+            font-family: 標楷體;
+            letter-spacing: 2px;
+        }
+
+        .content_C_left {
+            width: 55%;
+            float: left;
+
+        }
+
+        .content_C_left li {
+            font-size: 24px;
+            letter-spacing: 5px;
+            line-height: 35px;
+            font-family: 標楷體;
+        }
+
+        .content_C_right {
             width: 40%;
-            height: 81%;
+            /* height: 80%; */
+            float: right;
+            position: relative;
         }
 
-    </style>
+        .content_C_photo_1 {
+            border-radius: 50%;
+            width: 400px;
+            height: 400px;
+            background-color: blueviolet;
+        }
 
+        .content_C_photo_2 {
+            border-radius: 50%;
+            width: 320px;
+            height: 320px;
+            background-color: aquamarine;
+            /* background-image: url(""); */
+            /* background-size: cover; */
+            position: absolute;
+            left: -100px;
+            top: 300px;
+
+        }
+
+        .content_C_photo_3 {
+            border-radius: 50%;
+            width: 360px;
+            height: 360px;
+            background-color: burlywood;
+            /* background-image: url(""); */
+            /* background-size: cover; */
+            position: absolute;
+            left: 200px;
+            top: 280px;
+        }
+
+        /* content_D */
+        .content_D_tital h1 {
+            font-size: 50px;
+            text-align: center;
+            margin: 0;
+            font-family: 標楷體;
+            letter-spacing: 2px;
+            padding-bottom: 50px;
+        }
+
+
+        .content_D {
+            width: 100%;
+            height: 100%;
+            margin: auto;
+        }
+
+
+        #tabs-nav {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            text-align: left
+        }
+
+        a.tabs-menu {
+            display: inline-block;
+            background-color: skyblue;
+            font-size: 36px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            padding: 20px 22.21px;
+            text-shadow: 1px 1px 0px #1b91ab;
+            font-weight: bold;
+            text-decoration: none;
+            border: solid 1px #1b91ab;
+            border-bottom: 0;
+            border-radius: 50% 50% 0 0;
+            letter-spacing: 2px;
+        }
+
+        a.tabs-menu.tabs-menu-active {
+            background-color: #fff;
+            text-shadow: 1px 1px 0px #ffffff;
+            border: solid 1px #1b91ab;
+            color: #6b6b6b;
+            border-bottom: 0;
+        }
+
+        .tabs-container {
+            border: solid 1px #1b91ab;
+            /* margin-top: -10px; */
+            /* margin-left: -10px; */
+            background-color: #fff;
+            overflow: hidden;
+        }
+
+        .tabs-panel {
+            display: none;
+            min-height: 150px;
+            overflow: auto;
+            /* padding: 10px 0 0 0; */
+            max-height: 100%;
+
+        }
+
+        .tabs-container span {
+            width: 100%;
+            font-family: 標楷體;
+            font-size: 36px;
+            float: left;
+            margin: 5px 0;
+        }
+
+
+        #left_photo {
+            float: left;
+            clear: both;
+        }
+
+        #right_photo {
+            float: right;
+            width: 760px;
+            height: 440%;
+            margin-right: 1px;
+        }
+
+        #right_photo_top {
+            margin-bottom: -3px;
+        }
+
+
+        .space {
+            width: 100%;
+            height: 100px;
+        }
+
+        /* content_E */
+        .content_E_tital h1 {
+            font-size: 50px;
+            text-align: center;
+            margin: 0;
+            font-family: 標楷體;
+            letter-spacing: 2px;
+            padding: 100px 0;
+        }
+
+        .content_E {
+            width: 100%;
+            height: 100%;
+            margin: auto;
+        }
+
+
+        .content_G_tital h1 {
+            font-size: 50px;
+            text-align: center;
+            margin: 0;
+            font-family: 標楷體;
+            letter-spacing: 2px;
+            padding: 100px 0;
+        }
+
+        .content_G {
+            width: 59.375%;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+
+        .content_G_top {
+            display: flex;
+            margin-bottom: 50px;
+        }
+
+        .content_G_top_left {
+            width: 60%;
+            background-image: url("../10-傳統習俗/卡瓦儀式.jpg");
+            background-size: cover;
+            border-radius: 20%;
+        }
+
+        .content_G_top_right {
+            font-size: 18pt;
+            font-family: 標楷體;
+            line-height: 30px;
+            width: 50%;
+        }
+
+        .content_G_bot {
+            display: flex;
+        }
+
+        .content_G_bot_left {
+            font-size: 18pt;
+            width: 70%;
+            font-family: 標楷體;
+            line-height: 40px;
+        }
+
+        .content_G_bot_right {
+            width: 60%;
+            background-image: url("../10-傳統習俗/米克舞蹈.jpg");
+            background-size: cover;
+            border-radius: 20%;
+        }
+
+        .content_H {
+            width: 59.375%;
+            margin: auto;
+        }
+
+        .content_H_top {
+            display: flex;
+            margin-bottom: 50px;
+        }
+
+        .content_H_top_left {
+            width: 60%;
+            background-image: url("../10-傳統習俗/渡火儀式.jpg");
+            background-size: cover;
+            border-radius: 20%;
+        }
+
+        .content_H_top_right {
+            font-size: 18pt;
+            width: 50%;
+            font-family: 標楷體;
+            line-height: 40px;
+        }
+
+        .content_H_bot {
+            display: flex;
+        }
+
+        .content_H_bot_left {
+            font-size: 18pt;
+            width: 50%;
+            font-family: 標楷體;
+            line-height: 40px;
+        }
+
+        .content_H_bot_right {
+            width: 60%;
+            background-image: url("../10-傳統習俗/紅花節.jpg");
+            background-size: cover;
+            border-radius: 20%;
+        }
+
+        .content_G_bot_left,
+        .content_H_bot_left {
+            margin-right: 25px;
+        }
+
+        .content_G_top_right,
+        .content_H_top_right {
+            margin-left: 25px;
+        }
+
+        .footer {
+            width: 100%;
+            height: 100px;
+            background-color: rgb(212, 238, 248);
+        }
+
+        .gototop {
+            width: 80px;
+            height: 80px;
+            position: fixed;
+            /* z-index: 99; */
+            background-image: url("../01-LOGO/gototop.jpg");
+            background-size: cover;
+            right: 80px;
+            bottom: 120px;
+            border-radius: 50%;
+        }
+
+
+
+        @media screen and (min-width: 768px) and (max-width: 1920px) {
+            .swiper-container  {
+                width: 100%;
+                height: 100%;
+
+            }
+
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+            }
+
+            .swiper-container ipad {
+                width: 100%;
+                height: 100%;
+
+            }
+
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+            }
+
+
+
+
+        }
+    </style>
 </head>
 
 <body>
 
+    <!-- Swiper輪播 -->
 
-    <!-- Swiper -->
-    <!-- Swiper -->
-    <div id="banner" class="swiper-container">
+    <div class="container">
 
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="/02-Banner照片/改圖/no.1-改圖+文字.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="/02-Banner照片/改圖/no.2-改圖.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="/02-Banner照片/改圖/no.3-改圖.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="/02-Banner照片/改圖/no.4-改圖.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="/02-Banner照片/改圖/no.5-改圖.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="/02-Banner照片/改圖/no.6-改圖.jpg" alt=""></div>
+        <div class="content_0">
+
+            <div class="swiper-container">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/02-Banner照片/改圖/no.1-改圖+文字.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/02-Banner照片/改圖/no.2-改圖.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/02-Banner照片/改圖/no.3-改圖.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/02-Banner照片/改圖/no.4-改圖.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/02-Banner照片/改圖/no.5-改圖.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="/02-Banner照片/改圖/no.6-改圖.jpg" alt=""></div>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
         </div>
 
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+    </div>
+
+    <div class="navbar">
+
+
+        <div class="logo"></div>
+
+        <div class="navbar_button_group">
+
+            <ul>
+
+                <a href="">
+                    <li>認識斐濟</li>
+                </a>
+                <a href="">
+                    <li>島嶼介紹</li>
+                </a>
+                <a href="">
+                    <li>10大海灘</li>
+                </a>
+                <a href="">
+                    <li>傳統美食</li>
+                </a>
+                <a href="">
+                    <li>傳統習俗</li>
+                </a>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="content_A_tital">
+
+        <h1>認識斐濟</h1>
+
+    </div>
+    <div class="container">
+        <div class="content_A">
+
+            <div class="content_A_top">
+
+                <div class="video">
+                    <iframe width="500" height="315" src="https://www.youtube.com/embed/09wGTaGhrNE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="content_A_top_right">
+
+                    <ul>
+                        <li>被譽為「全球十大蜜月度假地之一」，獨特豐富的南洋文化和豐饒肥美的海鮮。</li>
+                        <li>一般的大海是藍色的，但是斐濟的大海卻是彩色的。因為無數奇形怪狀、色彩斑斕的魚兒在水裡歡遊，將大海攪得五彩繽紛。</li>
+                        <li>擁有300多個大小不一的島嶼被環狀的珊瑚礁包圍，成了魚兒的天堂。</li>
+                        <li>在離國際機場不遠的碼頭，每天都有很多船次去各個小島。</li>
+                        <li>通透見底的海水，延綿幾公里無人的沙灘；前赴後繼的浪花，在此時此刻裡擁有最完美無瑕的“現在”。</li>
+
+
+
+                </div>
+            </div>
+
+            <div class="content_A_bot">
+
+                <div class="content_A_bot_left">
+
+                    <ul>
+                        <li>位於南緯15度到22度，東經174度和西經177度之間，面積為194000平方公里，被稱為南太平洋的十字路口，擁有豐富的海洋生態。</li>
+                        <li>180度的國際換日線穿過該群島。是紐澳前往北美的必經之地。</li>
+                        <li>屬熱帶海洋氣候，夏季平均溫度為22℃～33℃，冬季平均溫度為19℃～29℃，12月至2、3月為雨季。</li>
+                    </ul>
+
+                    <h3>斐濟為多民族的國家，居民信奉基督教、印度教和伊斯蘭教，主要為3種語言：</h3>
+
+                    <ul>
+                        <li>英　語：受英國殖民統治超過一百年，因此成了最常用的語言。</li>
+                        <li>斐濟語：斐濟的民族語言，屬於南島語系。</li>
+                        <li>印度語：印度族裔和信仰伊斯蘭教的穆斯林們所講的主要語言。</li>
+                    </ul>
+
+                </div>
+
+                <div class="content_A_bot_right">
+
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7834414.734054075!2d174.96487111805996!3d-16.506001945970226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6e1990fd703cdc5d%3A0x9e9c319946ef5b93!2z5paQ5r-f!5e0!3m2!1szh-TW!2stw!4v1576593542196!5m2!1szh-TW!2stw"
+                            width="492" height="320" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+
+                    <div class="content_A_bot_right_bot">
+                        <div class="flag_1"></div>
+                        <div class="flag_2"></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <div class="container">
 
-        <!-- <div class="navbar_mask"></div> -->
-        <div class="navbar">
+        <div class="content_B">
 
+            <div class="tital">
 
-            <div class="logo"></div>
-
-            <div class="navbar_button_group">
-
-                <ul>
-
-                    <a href="">
-                        <li>認識斐濟</li>
-                    </a>
-                    <a href="">
-                        <li>島嶼介紹</li>
-                    </a>
-                    <a href="">
-                        <li>10大海灘</li>
-                    </a>
-                    <a href="">
-                        <li>傳統美食</li>
-                    </a>
-                    <a href="">
-                        <li>傳統習俗</li>
-                    </a>
-
-                </ul>
+                <h2>人文風俗</h2>
 
             </div>
 
 
+            <div class="content_B_left">
+
+                <div class="content_B_photo_1"></div>
+                <div class="content_B_photo_3"></div>
+                <div class="content_B_photo_2"></div>
+
+            </div>
+
+            <div class="content_B_right">
+
+                <ul>
+
+                    <li>用針穿過少女的耳朵，留下耳洞。若要防止嬰兒哭鬧而不能安然度過成年禮，也是可以提前穿耳洞的。</li>
+                </ul>
+
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-----父母對孩子將來幸福生活的期望</span>
+
+                <ul>
+                    <li>用針穿過少女的耳朵，留下耳洞。若要防止嬰兒哭鬧而不能安然度過成年禮，也是可以提前穿耳洞的。</li>
+                </ul>
+
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-----表示為了要傳宗接代</span>
+
+                <ul>
+                    <li>維兜兜族少女舉行成年禮，要遭受螞蟻啃咬之苦，當地人希望她們能夠承受的住痛苦。</li>
+                </ul>
+
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-----表示要像螞蟻一樣團結</span>
+
+                <ul>
+                    <li>將鮮花戴在左邊表示未婚，戴在兩邊則表示結婚。男人不但戴花，也喜歡穿裙子。裙子在這邊被稱為「ＳＯＬＯ」。</li>
+                </ul>
+
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-----表示斐濟人非常愛美</span>
+
+
+            </div>
 
         </div>
     </div>
 
-    <div class="banner"></div>
+    <div class="container">
+        <div class="content_C">
 
+            <div class="tital">
 
-    <div class="content_A">
-
-        <div class="tital">
-
-            <h1>認識斐濟</h1>
-
-        </div>
-
-        <div class="content_A_top">
-
-            <div class="video">
-                <iframe width="500" height="315" src="https://www.youtube.com/embed/09wGTaGhrNE" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-
-            <div class="content_A_top_right">
-
-                <ul>
-                    <li>被譽為「全球十大蜜月度假地之一」，獨特豐富的南洋文化和豐饒肥美的海鮮。</li>
-                    <li>一般的大海是藍色的，但是斐濟的大海卻是彩色的。因為無數奇形怪狀、色彩斑斕的魚兒在水裡歡遊，將大海攪得五彩繽紛。</li>
-                    <li>擁有300多個大小不一的島嶼被環狀的珊瑚礁包圍，成了魚兒的天堂。</li>
-                    <li>在離國際機場不遠的碼頭，每天都有很多船次去各個小島。</li>
-                    <li>通透見底的海水，延綿幾公里無人的沙灘；前赴後繼的浪花，在此時此刻裡擁有最完美無瑕的“現在”。</li>
-
-                </ul>
+                <h2>民俗禁忌</h2>
 
             </div>
-        </div>
 
-        <div class="content_A_bot">
-
-            <div class="content_A_bot_left">
+            <div class="content_C_left">
 
                 <ul>
-                    <li>位於南緯15度到22度，東經174度和西經177度之間，面積為194000平方公里，被稱為南太平洋的十字路口，擁有豐富的海洋生態。</li>
-                    <li>180度的國際換日線穿過該群島。是紐澳前往北美的必經之地。</li>
-                    <li>屬熱帶海洋氣候，夏季平均溫度為22℃～33℃，冬季平均溫度為19℃～29℃，12月至2、3月為雨季。</li>
+                    <li>女性不得穿著露肩的無袖上衣或者長度不及膝的裙子。</li>
+                </ul>
+                <ul>
+                    <li>不要摸任何斐濟人的頭，包括小孩子，斐濟人認為摸別人的頭，是對他人最大的恥辱。因為頭部是人最神聖的部位，是最高精神所在。</li>
+                </ul>
+                <ul>
+                    <li>在部落中不得戴帽子或者太陽鏡。只有村長才可以戴帽子。</li>
                 </ul>
 
-                <h3>斐濟為多民族的國家，居民信奉基督教、印度教和伊斯蘭教，主要為3種語言：</h3>
-
                 <ul>
-                    <li>英　語：受英國殖民統治超過一百年，因此成了最常用的語言。</li>
-                    <li>斐濟語：斐濟的民族語言，屬於南島語系。</li>
-                    <li>印度語：印度族裔和信仰伊斯蘭教的穆斯林們所講的主要語言。</li>
+                    <li>認識或不認識的人都會用「BULA」打招呼，回應打招呼的人時面帶微笑地說聲「BULA」，千萬不要大聲喧嘩。</li>
+                </ul>
+                <ul>
+                    <li>當海龜出現時不可拍攝，也不可指指點點，斐濟人認為海龜會帶來好運。</li>
                 </ul>
 
             </div>
 
-            <div class="content_A_bot_right">
+            <div class="content_C_right">
 
-                <div class="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7834414.734054075!2d174.96487111805996!3d-16.506001945970226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6e1990fd703cdc5d%3A0x9e9c319946ef5b93!2z5paQ5r-f!5e0!3m2!1szh-TW!2stw!4v1576593542196!5m2!1szh-TW!2stw"
-                        width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
-
-                <div class="flag_1"></div>
-                <div class="flag_2"></div>
+                <div class="content_C_photo_1"></div>
+                <div class="content_C_photo_2"></div>
+                <div class="content_C_photo_3"></div>
 
             </div>
-        </div>
 
-    </div>
-
-    <div class="content_B">
-
-        <div class="tital">
-
-            <h2>人文風俗</h2>
-
-        </div>
-        <div class="content_B_left">
-            <div class="content_B_photo-1"></div>
-            <div class="content_B_photo-2"></div>
-            <div class="content_B_photo-3"></div>
-        </div>
-
-        <div class="content_B_right">
-
-            <ul>
-
-                <li>用針穿過少女的耳朵，留下耳洞。若要防止嬰兒哭鬧而不能安然度過成年禮，也是可以提前穿耳洞的。
-                    <span>-----父母對孩子將來幸福生活的期望</span>
-                </li>
-
-                <li>用針穿過少女的耳朵，留下耳洞。若要防止嬰兒哭鬧而不能安然度過成年禮，也是可以提前穿耳洞的。
-                    <span>-----表示傳宗接代</span>
-                </li>
-                <li>維兜兜族少女舉行成年禮，要遭受螞蟻啃咬之苦，當地人希望她們能夠承受的住痛苦。
-                    <span>-----像螞蟻一樣團結</span>
-                </li>
-                <li>將鮮花戴在左邊表示未婚，戴在兩邊則表示結婚。男人不但戴花，也喜歡穿裙子。裙子在這邊被稱為「ＳＯＬＯ」。
-                    <span>-----愛美</span>
-                </li>
-
-            </ul>
         </div>
     </div>
 
-    <div class="content_C">
 
-        <span></span>
+    <div class="content_D_tital">
 
-        <div class="content_B_photo"></div>
-        <div class="content_B_photo"></div>
-        <div class="content_B_photo"></div>
+        <h1>島嶼介紹</h1>
 
     </div>
+
 
     <div class="content_D">
 
+        <div id="jquery-tabs" style="width:auto">
+
+            <div id="tabs-nav">
+                <a href="#tab0" class="tabs-menu tabs-menu-active">Vitilevu</a>
+                <a href="#tab1" class="tabs-menu">Mamanuka</a>
+                <a href="#tab2" class="tabs-menu">Modriki</a>
+                <a href="#tab3" class="tabs-menu">Yasawa</a>
+                <a href="#tab4" class="tabs-menu">Nanuya Lailai</a>
+                <a href="#tab5" class="tabs-menu">Kuata</a>
+                <a href="#tab6" class="tabs-menu">Denarau</a>
+                <a href="#tab7" class="tabs-menu">Treasure</a>
+                <a href="#tab8" class="tabs-menu">Ovalau</a>
+            </div>
+
+            <div class="tabs-container">
+                <div id="tab0" class="tabs-panel" style="display:block">
+
+                    <div id="left_photo">
+                        <img src="/07-島嶼介紹/01-維提島/維提島  左-改.png" alt="">
+                    </div>
+
+                    <div id="right_photo">
+                        <div id="right_photo_top">
+
+                            <img src="/07-島嶼介紹/01-維提島/維提島  右上-改.jpg" alt="">
+                        </div>
+
+                        <div id="right_photo_bot">
+
+                            <img src="/07-島嶼介紹/01-維提島/維提島  右下-改.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <span>維提島（Vitilevu）是斐濟最大的島嶼，首都蘇瓦和國際機場南迪，分別在島嶼的東、西方，是觀光旅遊最發達的島嶼。道路系統便捷，皇後路和國王路串成一個環島系統。</span>
+
+                </div>
+
+
+                <div id="tab1" class="tabs-panel">
+
+                    <div id="left_photo">
+                        <img src="/07-島嶼介紹/02-馬馬努卡群島/瑪瑪努卡島 左-改.jpg" alt="">
+                    </div>
+
+                    <div id="right_photo">
+                        <div id="right_photo_top">
+
+                            <img src="/07-島嶼介紹/02-馬馬努卡群島/瑪瑪努卡島 右上-改.jpg" alt="">
+                        </div>
+
+                        <div id="right_photo_bot">
+
+                            <img src="/07-島嶼介紹/02-馬馬努卡群島/瑪瑪努卡島 右下-改.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <span>瑪瑪努卡群島（Mamanuka）位於維提島的西方，是一島一飯店的百姓住家兼營水上遊樂設施服務。珊瑚礁發達的小島群。形成原因分別為火山地形、沉積石灰岩地形及珊瑚礁碎屑。</span>
+                </div>
+
+
+                <div id="tab2" class="tabs-panel">
+
+                    <div id="left_photo">
+                        <img src="" alt="">
+                    </div>
+
+                    <div id="right_photo">
+                        <div id="right_photo_top">
+
+                            <img src="" alt="">
+                        </div>
+
+                        <div id="right_photo_bot">
+
+                            <img src="" alt="">
+                        </div>
+                    </div>
+
+                    <span>魔帝瑞奇島（Modriki）為著名電影《浩劫重生》的取景拍攝地點。---湯姆漢克。</span>
+                </div>
+
+                <div id="tab3" class="tabs-panel">
+
+                    <div id="left_photo">
+                        <img src="/07-島嶼介紹/04-亞薩瓦群島/亞薩瓦群島 左-改.jpg" alt="">
+                    </div>
+
+                    <div id="right_photo">
+                        <div id="right_photo_top">
+
+                            <img src="/07-島嶼介紹/04-亞薩瓦群島/亞薩瓦群島 右上-改.jpg" alt="">
+                        </div>
+
+                        <div id="right_photo_bot">
+
+                            <img src="/07-島嶼介紹/04-亞薩瓦群島/亞薩瓦群島 右下-改.jpg" alt="">
+                        </div>
+                    </div>
+                    <span>亞薩瓦群島（Yasawa）位於維提島西海岸40公里，人口稀少，僻靜而安寧，全島只有18間別墅，是私密性最好的島嶼之一。島上共有11個私人沙灘。</span>
+                </div>
+
+                <div id="tab4" class="tabs-panel">
+
+                    <div id="left_photo">
+                        <img src="/07-島嶼介紹/05-小南努亞島/藍色潟湖 左-改.jpg" alt="">
+                    </div>
+
+                    <div id=" right_photo">
+                        <div id="right_photo_top">
+
+                            <img src="/07-島嶼介紹/05-小南努亞島/浮潛 右上-改.jpg" alt="">
+                        </div>
+
+                        <div id="right_photo_bot">
+
+                            <img src="/07-島嶼介紹/05-小南努亞島/藍色珊瑚礁 右下-改.jpg" alt="">
+                        </div>
+                    </div>
+                    <span>小南努亞島（NanuyaLailai）與塔威瓦島（Tavewa）之間的美麗藍色瀉湖，有全斐濟最夢幻的藍色珊瑚礁，是著名的婚禮勝地，也是游輪、游艇、潛水等愛好者、背包客及當地居民的天堂。</span>
+                </div>
+
+                <div id="tab5" class="tabs-panel">
+
+                    <div id="left_photo">
+                        <img src="" alt="">
+                    </div>
+
+                    <div id="right_photo">
+                        <div id="right_photo_top">
+
+                            <img src="" alt="">
+                        </div>
+
+                        <div id="right_photo_bot">
+
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <span>誇塔島（Kuata）是最著名的鯊魚浮潛點，只要在淺海浮潛，就能近距離和鯊魚一起游泳，還能看到餵鯊秀。</span>
+                </div>
+
+                <div id="tab6" class="tabs-panel">
+
+                    <div id="left_photo">
+                        <img src="/07-島嶼介紹/07-丹娜瓦群島/丹娜瓦群島 左-改.jpg" alt="">
+                    </div>
+
+                    <div id="right_photo">
+                        <div id="right_photo_top">
+
+                            <img src="/07-島嶼介紹/07-丹娜瓦群島/丹娜瓦群島 右上-改.png" alt="">
+                        </div>
+
+                        <div id="right_photo_bot">
+
+                            <img src="/07-島嶼介紹/07-丹娜瓦群島/丹納瓦群島 右下-改.jpg" alt="">
+                        </div>
+                    </div>
+                    <span>丹娜瓦群島（Denarau）擁有斐濟最美的海灘和白沙，世界頂級的五星酒店渡假村都有私家海灘。設施齊全配套完善，擁有18洞錦標賽水準的高爾夫球場。</span>
+                </div>
+
+                <div id="tab7" class="tabs-panel">
+
+                    <div id="left_photo">
+                        <img src="/07-島嶼介紹/08-金銀島/金銀島左-改.jpg" alt="">
+                    </div>
+
+                    <div id="right_photo">
+                        <div id="right_photo_top">
+
+                            <img src="/07-島嶼介紹/08-金銀島/金銀島 右上-改.jpg" alt="">
+                        </div>
+
+                        <div id="right_photo_bot">
+
+                            <img src="/07-島嶼介紹/08-金銀島/金銀島 右下-改.jpg" alt="">
+                        </div>
+                    </div>
+                    <span>金銀島（Treasure）位於斐濟西部。島上設施齊備（每天只接待10-20名遊客），是著名的結婚勝地之一。這裡的海床很低，海水清澈得幾乎透明。只要帶上潛水鏡和呼吸管就可以下海欣賞海底的奇妙世界。</span>
+                </div>
+
+                <div id="tab8" class="tabs-panel">
+
+                    <div id="left_photo">
+                        <img src="/07-島嶼介紹/09-歐瓦羅德島/歐瓦羅島 左-改.jpg" alt="">
+                    </div>
+
+                    <div id="right_photo">
+                        <div id="right_photo_top">
+
+                            <img src="/07-島嶼介紹/09-歐瓦羅德島/歐瓦羅島 右上-改.jpg" alt="">
+                        </div>
+
+                        <div id="right_photo_bot">
+
+                            <img src="/07-島嶼介紹/09-歐瓦羅德島/歐瓦羅 右下-改.jpg" alt="">
+                        </div>
+                    </div>
+                    <span>歐瓦羅德島（Ovalau）位於維提島東方，東邊的港口萊武卡(Levuka)是斐濟舊首都。有早期開發的痕跡，適合徒步觀賞充滿維多利亞風格的建築與布置。因背山面海腹地狹小，所以在1881年遷都蘇瓦。</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="content_E_tital">
+
+        <h1>10大海灘</h1>
 
     </div>
 
-    <div class="content_E"></div>
+    <div class="container">
+        <div class="content_E">
 
-    <div class="content_F"></div>
+            <div class="swiper-container">
 
-    <div class="content_G"></div>
+                <div class="swiper-wrapper">
 
-    <div class="content_H"></div>
+                    <div class="swiper-slide"><img src="/08-最美海灘/改圖+字/漂流者島-1-改+字.jpg"></div>
+                    <div class="swiper-slide"><img src="/08-最美海灘/改圖+字/蜜月-龜島-2-改+字.jpg"></div>
+                    <div class="swiper-slide"><img src="/08-最美海灘/改圖+字/馬蹄灣-3-改+字.jpg"></div>
+                    <div class="swiper-slide"><img src="/08-最美海灘/改圖+字/力庫海灘-4-改+字.jpg"></div>
+                    <div class="swiper-slide"><img src="/08-最美海灘/改圖+字/納馬類私人海灘-5-改+字.jpg"></div>
+                    <div class="swiper-slide"><img src="/08-最美海灘/改圖+字/納塔多拉海灘-6-改+字.jpg"></div>
+                    <div class="swiper-slide"><img src="/08-最美海灘/改圖+字/海草灣-7-改+字-01.jpg"></div>
+                    <div class="swiper-slide"><img src=""></div>
+                    <div class="swiper-slide"><img src=""></div>
+                    <div class="swiper-slide"><img src=""></div>
+
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="content_G_tital">
+
+        <h1>傳統習俗</h1>
+
+    </div>
+    </div>
+
+    <div class="content_G">
+
+        <div class="content_G_top">
+            <div class="content_G_top_left"></div>
+            <div class="content_G_top_right">
+                <span>在勇士出征前、部落決定大事、歡迎遠來貴賓、或是歡慶的節日時都少不了卡瓦酒。若能享受到此儀式，就是受到隆重的接待。用當地的胡椒樹樹根，做成的飲料為稱為楊高那（Yaqona），也就是卡瓦酒。做法是將樹根包在棉布，再放到三角形大圓頂中，加水搓揉，讓擠出的汁液流入椰殼裡。受飲者以雙手擊掌三下後，接過椰子殼，一飲而盡，將空殼還與贈與者，再擊掌三下即完成此儀式。卡瓦酒成混白濁色，並不含酒精，就像水一樣沒有味道，卻帶有麻醉和鎮定作用，可緩解煩燥及焦慮。</span>
+
+            </div>
+        </div>
+
+        <div class="content_G_bot">
+            <div class="content_G_bot_left">
+                <span>表演者赤裸上身，塗上黑色紋樣，下濁傳統的草裙，手持木質武器，在火把及月光的映襯下，將古老傳說中的戰爭場面娓娓道來，部落式的吟誦和敘事性的舞蹈擦出火花，有時候會將客人假想成是其他部落的敵人，開個恐嚇的玩笑，在最後取得「和平」，帶你一同跳舞，斐濟人總是給人們帶來不一樣的歡笑與驚喜。</span>
+            </div>
+            <div class="content_G_bot_right"></div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content_H">
+
+            <div class="content_H_top">
+                <div class="content_H_top_left"></div>
+                <div class="content_H_top_right">
+                    <span>「火」在斐濟人心中象徵光明與希望，武士們往正在燃燒的篝火中添加成塊的木頭，木炭上鋪著一層類似鵝卵石的卵石，底下的火苗從石頭間隙竄出，當石頭被烤的微微發白時，一隊的武士隊便排隊輪番上陣，赤著雙腳在滾燙的石頭上跳舞，一邊口中唸唸有詞，像在祈禱祝福似的，一邊手舞足蹈的高叫「烏拉」，以顯示勇氣和力量。</span>
+                </div>
+
+            </div>
+
+            <div class="content_H_bot">
+                <div class="content_H_bot_left">
+                    <span>在8月中旬舉行為期一周的紅花節化裝遊行，紅花即為扶桑花，又稱木槿花，是斐濟的國花。街道上搭起了牌樓，掛上彩旗，插上各種花草，裝上彩色燈泡，異常美麗。遊客們身穿各色服裝，戴著稀奇古怪的面具，在警察樂隊的帶領下，與童子軍相伴穿街遊行。在廣場上舉行各種表演。最後宣布評選「紅花皇后」的結果，當選的前3名會被戴上皇冠，並發給她們獎金和獎品。評選活動售票所得連同其他收入都會捐獻給社會慈善機關。</span>
+                </div>
+
+                <div class="content_H_bot_right"></div>
+
+            </div>
+        </div>
+    </div>
 
     <div class="footer"></div>
 
+    <a href="">
+        <div class="gototop"></div>
+    </a>
 
 
-
-
-
-
-
-    <!-- 連結 -->
+    <!-- 輪播_1連結 -->
     <script src="https://unpkg.com/swiper/js/swiper.js"></script>
 
+    <!-- 頁簽 -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 
 
 
@@ -481,8 +1220,19 @@
         });
     </script>
 
-
-
+    <!-- 頁簽 -->
+    <script>
+        $(function () {
+            $("#tabs-nav a").click(function () {
+                $("#tabs-nav a").removeClass("tabs-menu-active");
+                $(this).addClass("tabs-menu-active");
+                $(".tabs-panel").hide();
+                var tab_id = $(this).attr("href");
+                $(tab_id).fadeIn();
+                return false;
+            });
+        });
+    </script>
 
 </body>
 
